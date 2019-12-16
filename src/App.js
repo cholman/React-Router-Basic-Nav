@@ -7,8 +7,8 @@ const App = () => (
   <div>
     <Navigation />
     <Route exact path="/"></Route>
-    <Route exact path="/about" /><About />
-    <Route exact path="/contact" /><Contact />
+    <Route exact path="/About"><About /></Route>
+    <Route exact path="/Contact"><Contact /></Route>
   </div>
 
 );
